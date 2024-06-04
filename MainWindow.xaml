@@ -1,11 +1,25 @@
 ﻿<Window x:Class="Soccer.MainWindow"
+        
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="Soccer" TextBlock.TextAlignment="Center" Height="666.375" Width="525" Background="#F5F5F5">
-    <Grid >
+    <Grid Name="SoccerGrid" >
         <ListBox Name="matchDaysListBox" HorizontalAlignment="Left" Height="325" Margin="43,38,0,0" VerticalAlignment="Top" Width="434"/>
         <Label Content="Match Days" HorizontalAlignment="Left" Margin="47,9,0,0" VerticalAlignment="Top" FontSize="14" FontWeight="Bold"/>
         <ListBox Name="gamesListBox" HorizontalAlignment="Left" Height="175" Margin="39,417,0,0" VerticalAlignment="Top" Width="434"/>
         <Label Content="Games" HorizontalAlignment="Left" Margin="43,388,0,0" VerticalAlignment="Top" FontSize="14" FontWeight="Bold"/>
-</Grid>
+        <Button Click="StartButton_Click" Content="Start" HorizontalAlignment="Left" Height="17" VerticalAlignment="Top" Width="82"/>
+        <Button Click="CompetitionButton_Click" Name="CompetitionButton" IsEnabled="False" Content="Competition" HorizontalAlignment="Left" Height="17" Margin="82,0,0,0" VerticalAlignment="Top" Width="100"/>
+        <Button Click="ReadButton_Click" Name="ReadButton" 
+                Visibility="Collapsed"
+                Content="Read Teams/Players" 
+                HorizontalAlignment="Left" Height="21" Margin="0,17,0,0" 
+                VerticalAlignment="Top" Width="132"/>
+        <Menu Visibility="Collapsed" x:Name="CompetitionMenu" HorizontalAlignment="Left" Height="56" Margin="82,17,0,0" VerticalAlignment="Top" Width="100">
+            <MenuItem Name="Compose" Click="Compose_Click" Header="Compose Games"  Width="100" Height="20" />
+            <MenuItem Name="Scores" Click="Scores_Click"  IsEnabled="False" Header="Enter Scores"  Width="100" Height="20" />
+            <MenuItem Name="Ranking" Click="Ranking_Click" IsEnabled="False" Header="Ranking"  Width="100" Height="20" />
+        </Menu>
+
+    </Grid>
 </Window>

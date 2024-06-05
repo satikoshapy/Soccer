@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\Sati\\OneDrive - PXL\\Bureaublad\\Switch2IT\\1-e jaar\\SECOND SEMESTER\\.NET\\Soccer\\Soccer\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B6F7BAAB-52A2-4EBD-B36C-ABD44B7B2EFA}|Soccer.csproj|c:\\users\\sati\\onedrive - pxl\\bureaublad\\switch2it\\1-e jaar\\second semester\\.net\\soccer\\soccer\\gamewindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B6F7BAAB-52A2-4EBD-B36C-ABD44B7B2EFA}|Soccer.csproj|solutionrelative:gamewindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B6F7BAAB-52A2-4EBD-B36C-ABD44B7B2EFA}|Soccer.csproj|c:\\users\\sati\\onedrive - pxl\\bureaublad\\switch2it\\1-e jaar\\second semester\\.net\\soccer\\soccer\\rankingwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6F7BAAB-52A2-4EBD-B36C-ABD44B7B2EFA}|Soccer.csproj|solutionrelative:rankingwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6F7BAAB-52A2-4EBD-B36C-ABD44B7B2EFA}|Soccer.csproj|c:\\users\\sati\\onedrive - pxl\\bureaublad\\switch2it\\1-e jaar\\second semester\\.net\\soccer\\soccer\\rankingwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B6F7BAAB-52A2-4EBD-B36C-ABD44B7B2EFA}|Soccer.csproj|solutionrelative:rankingwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6F7BAAB-52A2-4EBD-B36C-ABD44B7B2EFA}|Soccer.csproj|c:\\users\\sati\\onedrive - pxl\\bureaublad\\switch2it\\1-e jaar\\second semester\\.net\\soccer\\soccer\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6F7BAAB-52A2-4EBD-B36C-ABD44B7B2EFA}|Soccer.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B6F7BAAB-52A2-4EBD-B36C-ABD44B7B2EFA}|Soccer.csproj|c:\\users\\sati\\onedrive - pxl\\bureaublad\\switch2it\\1-e jaar\\second semester\\.net\\soccer\\soccer\\team.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B6F7BAAB-52A2-4EBD-B36C-ABD44B7B2EFA}|Soccer.csproj|solutionrelative:team.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B6F7BAAB-52A2-4EBD-B36C-ABD44B7B2EFA}|Soccer.csproj|c:\\users\\sati\\onedrive - pxl\\bureaublad\\switch2it\\1-e jaar\\second semester\\.net\\soccer\\soccer\\gamewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{B6F7BAAB-52A2-4EBD-B36C-ABD44B7B2EFA}|Soccer.csproj|solutionrelative:gamewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B6F7BAAB-52A2-4EBD-B36C-ABD44B7B2EFA}|Soccer.csproj|c:\\users\\sati\\onedrive - pxl\\bureaublad\\switch2it\\1-e jaar\\second semester\\.net\\soccer\\soccer\\matchday.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -30,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -39,6 +43,44 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "RankingWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Sati\\OneDrive - PXL\\Bureaublad\\Switch2IT\\1-e jaar\\SECOND SEMESTER\\.NET\\Soccer\\Soccer\\RankingWindow.xaml",
+              "RelativeDocumentMoniker": "RankingWindow.xaml",
+              "ToolTip": "C:\\Users\\Sati\\OneDrive - PXL\\Bureaublad\\Switch2IT\\1-e jaar\\SECOND SEMESTER\\.NET\\Soccer\\Soccer\\RankingWindow.xaml",
+              "RelativeToolTip": "RankingWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-05T17:19:37.06Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RankingWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Sati\\OneDrive - PXL\\Bureaublad\\Switch2IT\\1-e jaar\\SECOND SEMESTER\\.NET\\Soccer\\Soccer\\RankingWindow.xaml.cs",
+              "RelativeDocumentMoniker": "RankingWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Sati\\OneDrive - PXL\\Bureaublad\\Switch2IT\\1-e jaar\\SECOND SEMESTER\\.NET\\Soccer\\Soccer\\RankingWindow.xaml.cs",
+              "RelativeToolTip": "RankingWindow.xaml.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAMwCIAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T17:17:21.159Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Sati\\OneDrive - PXL\\Bureaublad\\Switch2IT\\1-e jaar\\SECOND SEMESTER\\.NET\\Soccer\\Soccer\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Sati\\OneDrive - PXL\\Bureaublad\\Switch2IT\\1-e jaar\\SECOND SEMESTER\\.NET\\Soccer\\Soccer\\MainWindow.xaml.cs",
+              "RelativeToolTip": "MainWindow.xaml.cs",
+              "ViewState": "AQIAAKMAAAAAAAAAAADwv6YAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T17:16:21.61Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Team.cs",
               "DocumentMoniker": "C:\\Users\\Sati\\OneDrive - PXL\\Bureaublad\\Switch2IT\\1-e jaar\\SECOND SEMESTER\\.NET\\Soccer\\Soccer\\Team.cs",
               "RelativeDocumentMoniker": "Team.cs",
@@ -51,7 +93,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Player.cs",
               "DocumentMoniker": "C:\\Users\\Sati\\OneDrive - PXL\\Bureaublad\\Switch2IT\\1-e jaar\\SECOND SEMESTER\\.NET\\Soccer\\Soccer\\Player.cs",
               "RelativeDocumentMoniker": "Player.cs",
@@ -59,24 +101,11 @@
               "RelativeToolTip": "Player.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-05T16:53:17.755Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-05T16:53:17.755Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "GameWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\Sati\\OneDrive - PXL\\Bureaublad\\Switch2IT\\1-e jaar\\SECOND SEMESTER\\.NET\\Soccer\\Soccer\\GameWindow.xaml",
-              "RelativeDocumentMoniker": "GameWindow.xaml",
-              "ToolTip": "C:\\Users\\Sati\\OneDrive - PXL\\Bureaublad\\Switch2IT\\1-e jaar\\SECOND SEMESTER\\.NET\\Soccer\\Soccer\\GameWindow.xaml",
-              "RelativeToolTip": "GameWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-06-05T16:27:49.817Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "MatchDay.cs",
               "DocumentMoniker": "C:\\Users\\Sati\\OneDrive - PXL\\Bureaublad\\Switch2IT\\1-e jaar\\SECOND SEMESTER\\.NET\\Soccer\\Soccer\\MatchDay.cs",
               "RelativeDocumentMoniker": "MatchDay.cs",
@@ -84,21 +113,7 @@
               "RelativeToolTip": "MatchDay.cs",
               "ViewState": "AQIAAAsAAAAAAAAAAAA2wBsAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-05T15:14:24.865Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "GameWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Sati\\OneDrive - PXL\\Bureaublad\\Switch2IT\\1-e jaar\\SECOND SEMESTER\\.NET\\Soccer\\Soccer\\GameWindow.xaml.cs",
-              "RelativeDocumentMoniker": "GameWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\Sati\\OneDrive - PXL\\Bureaublad\\Switch2IT\\1-e jaar\\SECOND SEMESTER\\.NET\\Soccer\\Soccer\\GameWindow.xaml.cs",
-              "RelativeToolTip": "GameWindow.xaml.cs",
-              "ViewState": "AQIAAC4AAAAAAAAAAADwvzkAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-05T16:25:42.161Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-05T15:14:24.865Z"
             }
           ]
         }

@@ -55,5 +55,27 @@ namespace Soccer
             Team1.Points += 1;
             scoreT1Label.Content = Team1.Points;
         }
+
+        private void stopButton_Click(object sender, RoutedEventArgs e)
+        {
+            if (Team1.Points > Team2.Points)
+            {
+                Team1.Points = 3;
+                Team2.Points = 0;
+            }
+            else if (Team1.Points == Team2.Points)
+            {
+                Team1.Points = 1;
+                Team2.Points = 1;
+            }
+            else
+            {
+                Team1.Points = 0;
+                Team2.Points = 3;
+            }
+
+            this.Close();
+
+        }
     }
 }

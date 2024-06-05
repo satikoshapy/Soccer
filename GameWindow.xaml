@@ -9,7 +9,7 @@
         <Label Name="scoreT2Label" Content="Label" HorizontalAlignment="Left" Margin="383,46,0,0" VerticalAlignment="Top" FontSize="14" FontWeight="Bold"/>
         <Label Name="team1Label" Content="Label" HorizontalAlignment="Left" Margin="85,119,0,0" VerticalAlignment="Top" FontSize="14" FontWeight="Bold"/>
         <Label Name="team2Label" Content="Label" HorizontalAlignment="Left" Margin="383,119,0,0" VerticalAlignment="Top" FontSize="14" FontWeight="Bold"/>
-        <Button Name="stopButton" Content="Stop input" HorizontalAlignment="Left" Margin="330,357,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button Click="stopButton_Click" Name="stopButton" Content="Stop input" HorizontalAlignment="Left" Margin="330,357,0,0" VerticalAlignment="Top" Width="75"/>
 
     </Grid>
 </Window>

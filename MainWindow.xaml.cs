@@ -163,7 +163,8 @@ namespace Soccer
 
         private void Ranking_Click(object sender, RoutedEventArgs e)
         {
-
+            RankingWindow rankingWindow = new RankingWindow(_teams);
+            rankingWindow.Show();
         }
 
         private void Scores_Click(object sender, RoutedEventArgs e)

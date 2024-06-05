@@ -4,6 +4,6 @@
         Title="RankingWindow" Height="618" Width="405" Background="#F5F5F5">
     <Grid>
         <TextBox Name="rankingTextBox" HorizontalAlignment="Left" Height="442" Margin="57,40,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="278" Background="#F5F5F5"/>
-        <Button Name="closeButton" Content="Close" HorizontalAlignment="Left" Margin="167,522,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button Click="closeButton_Click" Name="closeButton" Content="Close" HorizontalAlignment="Left" Margin="167,522,0,0" VerticalAlignment="Top" Width="75"/>
     </Grid>
 </Window>

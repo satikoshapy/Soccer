@@ -1,3 +1,8 @@
+C:\Users\Sati\OneDrive - PXL\Bureaublad\Switch2IT\1-e jaar\SECOND SEMESTER\.NET\Soccer\Soccer\bin\Debug\net6.0-windows\Soccer.exe
+C:\Users\Sati\OneDrive - PXL\Bureaublad\Switch2IT\1-e jaar\SECOND SEMESTER\.NET\Soccer\Soccer\bin\Debug\net6.0-windows\Soccer.deps.json
+C:\Users\Sati\OneDrive - PXL\Bureaublad\Switch2IT\1-e jaar\SECOND SEMESTER\.NET\Soccer\Soccer\bin\Debug\net6.0-windows\Soccer.runtimeconfig.json
+C:\Users\Sati\OneDrive - PXL\Bureaublad\Switch2IT\1-e jaar\SECOND SEMESTER\.NET\Soccer\Soccer\bin\Debug\net6.0-windows\Soccer.dll
+C:\Users\Sati\OneDrive - PXL\Bureaublad\Switch2IT\1-e jaar\SECOND SEMESTER\.NET\Soccer\Soccer\bin\Debug\net6.0-windows\Soccer.pdb
 C:\Users\Sati\OneDrive - PXL\Bureaublad\Switch2IT\1-e jaar\SECOND SEMESTER\.NET\Soccer\Soccer\obj\Debug\net6.0-windows\GameWindow.baml
 C:\Users\Sati\OneDrive - PXL\Bureaublad\Switch2IT\1-e jaar\SECOND SEMESTER\.NET\Soccer\Soccer\obj\Debug\net6.0-windows\MainWindow.baml
 C:\Users\Sati\OneDrive - PXL\Bureaublad\Switch2IT\1-e jaar\SECOND SEMESTER\.NET\Soccer\Soccer\obj\Debug\net6.0-windows\RankingWindow.baml
@@ -12,11 +17,6 @@ C:\Users\Sati\OneDrive - PXL\Bureaublad\Switch2IT\1-e jaar\SECOND SEMESTER\.NET\
 C:\Users\Sati\OneDrive - PXL\Bureaublad\Switch2IT\1-e jaar\SECOND SEMESTER\.NET\Soccer\Soccer\obj\Debug\net6.0-windows\Soccer.AssemblyInfo.cs
 C:\Users\Sati\OneDrive - PXL\Bureaublad\Switch2IT\1-e jaar\SECOND SEMESTER\.NET\Soccer\Soccer\obj\Debug\net6.0-windows\Soccer.csproj.CoreCompileInputs.cache
 C:\Users\Sati\OneDrive - PXL\Bureaublad\Switch2IT\1-e jaar\SECOND SEMESTER\.NET\Soccer\Soccer\obj\Debug\net6.0-windows\Soccer.sourcelink.json
-C:\Users\Sati\OneDrive - PXL\Bureaublad\Switch2IT\1-e jaar\SECOND SEMESTER\.NET\Soccer\Soccer\bin\Debug\net6.0-windows\Soccer.exe
-C:\Users\Sati\OneDrive - PXL\Bureaublad\Switch2IT\1-e jaar\SECOND SEMESTER\.NET\Soccer\Soccer\bin\Debug\net6.0-windows\Soccer.deps.json
-C:\Users\Sati\OneDrive - PXL\Bureaublad\Switch2IT\1-e jaar\SECOND SEMESTER\.NET\Soccer\Soccer\bin\Debug\net6.0-windows\Soccer.runtimeconfig.json
-C:\Users\Sati\OneDrive - PXL\Bureaublad\Switch2IT\1-e jaar\SECOND SEMESTER\.NET\Soccer\Soccer\bin\Debug\net6.0-windows\Soccer.dll
-C:\Users\Sati\OneDrive - PXL\Bureaublad\Switch2IT\1-e jaar\SECOND SEMESTER\.NET\Soccer\Soccer\bin\Debug\net6.0-windows\Soccer.pdb
 C:\Users\Sati\OneDrive - PXL\Bureaublad\Switch2IT\1-e jaar\SECOND SEMESTER\.NET\Soccer\Soccer\obj\Debug\net6.0-windows\Soccer.dll
 C:\Users\Sati\OneDrive - PXL\Bureaublad\Switch2IT\1-e jaar\SECOND SEMESTER\.NET\Soccer\Soccer\obj\Debug\net6.0-windows\refint\Soccer.dll
 C:\Users\Sati\OneDrive - PXL\Bureaublad\Switch2IT\1-e jaar\SECOND SEMESTER\.NET\Soccer\Soccer\obj\Debug\net6.0-windows\Soccer.pdb

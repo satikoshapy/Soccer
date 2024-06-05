@@ -4,6 +4,8 @@ using System.IO;
 using System.Linq;
 using System.Windows;
 using System.Windows.Controls;
+using System.Windows.Documents;
+using System.Windows.Input;
 
 namespace Soccer
 {
@@ -177,7 +179,22 @@ namespace Soccer
                 
                 listItem.DataContext = matchDay;
                 listItem.MouseDoubleClick += MatchDay_Click;
+                
                 matchDaysListBox.Items.Add(listItem);
+            }
+        }
+
+        private void MatchDay_DoubleClick(object sender, MouseButtonEventArgs e)
+        {
+            Label? clickedItem = sender as Label;
+
+            gamesListBox.Items.Clear();
+
+            List<Team>? clickedMatch = clickedItem?.DataContext as List<Team>;
+            if (clickedMatch != null)
+            {
+                GameWindow gameWindow = new GameWindow(clickedMatch[0], clickedMatch[1]);
+                gameWindow.Show();
             }
         }
 
@@ -195,6 +212,8 @@ namespace Soccer
                 for (int i = 0; i < 8; i++)
                 {
                     Label lbl = new Label { Content = matchDay.TeamList1[i].Name + " - " + matchDay.TeamList2[i].Name };
+                    lbl.DataContext = new List<Team>() { matchDay.TeamList1[i], matchDay.TeamList2[i]};
+                    lbl.MouseDoubleClick += MatchDay_DoubleClick;
                     gamesListBox.Items.Add(lbl);
                 }
             }

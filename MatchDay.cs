@@ -17,12 +17,16 @@ namespace Soccer
 
         public DateTime Date {  get; set; }
 
-        public MatchDay(int dayNumber, List<Team> teamList1, List<Team> teamList2, DateTime date)
+        public MatchDay(int dayNumber, DateTime date)
         {
             DayNumber = dayNumber;
-            TeamList1 = teamList1;
-            TeamList2 = teamList2;
             Date = date;
+
+            TeamList1 = new List<Team>();
+            TeamList2 = new List<Team>();
+
+            ScoreList1 = new List<int>();
+            ScoreList2 = new List<int>();
         }
     }
 }

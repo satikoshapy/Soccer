@@ -13,18 +13,24 @@ namespace Soccer
     public partial class MainWindow : Window
     {
         private const int MaximumNumberOfPlayers = 11;
-        private List<Player> players = new List<Player>();
-        private List<Team> teams = new List<Team>();
-        private List<MatchDay> matchDays = new List<MatchDay>();
+        private List<Player> _players = new List<Player>();
+        private List<Team> _teams = new List<Team>();
+        private List<MatchDay> _matchDays = new List<MatchDay>();
 
         public MainWindow()
         {
             InitializeComponent();
         }
 
-        private void SwitchTeams()
+        private void SwitchTeams(List<Team> teamList1, List<Team> teamList2)
         {
-
+            if (teamList1.Count > 1 && teamList2.Count > 0)
+            {
+                teamList2.Insert(0, teamList1[1]);
+                teamList1.RemoveAt(1);
+                teamList1.Add(teamList2[teamList2.Count - 1]);
+                teamList2.RemoveAt(teamList2.Count - 1);
+            }
         }
 
         private void StartButton_Click(object sender, RoutedEventArgs e)
@@ -42,7 +48,7 @@ namespace Soccer
 
         public void AssignPlayerToTeamBy(int id, Player player)
         {
-            Team team = teams.First(team => team.Id == id);
+            Team team = _teams.First(team => team.Id == id);
             team.Players.Add(player);
         }
 
@@ -54,7 +60,7 @@ namespace Soccer
             while ((line = reader.ReadLine()) != null)
             {
                 string[] splitLine = line.Split(",");
-                teams.Add(new Team(int.Parse(splitLine[0]), splitLine[1], splitLine[2]));
+                _teams.Add(new Team(int.Parse(splitLine[0]), splitLine[1], splitLine[2]));
             }
         }
 
@@ -74,7 +80,7 @@ namespace Soccer
                     function
                     );
                 AssignPlayerToTeamBy(int.Parse(splitLine[0]), player);
-                players.Add(player);
+                _players.Add(player);
                 
             }
             
@@ -105,24 +111,47 @@ namespace Soccer
 
         private void Compose_Click(object sender, RoutedEventArgs e)
         {
-
             DateTime day = new DateTime(DateTime.Now.Year, 7, 31);
             while (day.DayOfWeek != DayOfWeek.Saturday)
             {
                 day = day.AddDays(-1);
             }
 
+            // Initialize lists for rotation
+            List<Team> initialTeamList1 = new List<Team>();
+            List<Team> initialTeamList2 = new List<Team>();
 
-            List<Team> teamList1 = teams.GetRange(0, 8);
-            List<Team> teamList2 = teams.GetRange(8, teams.Count - 8);
-            for (int i = 1; i < 16; i++)
+            for (int i = 0; i < _teams.Count / 2; i++)
             {
-                matchDays.Add(new MatchDay(i, teamList1, teamList2, day));
+                initialTeamList1.Add(_teams[i]);
+                initialTeamList2.Add(_teams[i + _teams.Count / 2]);
+            }
+
+            // Create match days and rotate teams
+            for (int dayNumber = 0; dayNumber < _teams.Count - 1; dayNumber++)
+            {
+                // Create new match day
+                MatchDay matchDay = new MatchDay(dayNumber, day);
+
+                // Add teams to match day lists
+                matchDay.TeamList1.AddRange(initialTeamList1);
+                matchDay.TeamList2.AddRange(initialTeamList2);
+
+                // Initialize scores
+                for (int i = 0; i < _teams.Count / 2; i++)
+                {
+                    matchDay.ScoreList1.Add(0);
+                    matchDay.ScoreList2.Add(0);
+                }
+
+                // Add match day to list
+                _matchDays.Add(matchDay);
+
+                // Rotate teams for the next match day
+                SwitchTeams(initialTeamList1, initialTeamList2);
+
+                // Increment day
                 day = day.AddDays(7);
-                teamList2.Insert(0, teamList1[1]);
-                teamList1.Remove(teamList1[1]);
-                teamList1.Add(teamList2[teamList2.Count - 1]);
-                teamList2.RemoveAt(teamList2.Count - 1);
             }
 
             Scores.IsEnabled = true;
@@ -139,7 +168,7 @@ namespace Soccer
         {
             matchDaysListBox.Items.Clear();
 
-            foreach(MatchDay matchDay in matchDays) 
+            foreach(MatchDay matchDay in _matchDays) 
             {
                 string formattedDate = matchDay.Date.ToString("dd/MM/yyyy");
 
